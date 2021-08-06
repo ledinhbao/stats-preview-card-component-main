@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  background-color: #090b1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #1b1938;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 14px;
+  overflow: hidden;
+  width: 1111px;
+  margin-bottom: 20px;
+}
+
+.body {
+  margin-bottom: 60px;
+  font-family: 'Inter';
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+}
+
+.left-panel {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 60px 110px 60px 73px;
+}
+
+.right-panel {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.right-panel .overlay {
+  background-color: #aa5cdb;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+
+.title {
+  color: white;
+  font-size: 2.25rem;
+  padding-bottom: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.title accent {
+  color: #aa5cdb;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list .list-item--number {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 200%;
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+.list .list-item--text {
+  font-size: 0.75rem !important;
+  text-transform: uppercase;
+  font-family: 'Lexend Deca';
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.attribution {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca';
+}
+/*# sourceMappingURL=style.css.map */

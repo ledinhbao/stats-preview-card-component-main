@@ -1,0 +1,28 @@
+// @font-face {
+//     font-family: 'Inter';
+//     src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+// }
+
+// @font-face {
+//     font-family: "Deca";
+//     src: url('../fonts/Lexend_Deca/LexendDeca-Regular.ttf');
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+$veryDarkBlue: hsl(233, 47%, 7%);
+$darkBlue: hsl(244, 38%, 16%);
+$softViolet: hsl(277, 64%, 61%);
+
+$white: hsl(0, 0%, 100%);
+$transWhite: hsla(0, 0%, 100%, 0.75);
+$moreTransWhite: hsla(0, 0%, 100%, 0.6);
+
+$bodyFontSize: 0.9375rem;
+$titleFontSize: 2.25rem;
+$statNumberFontSize: 1.4rem;
+$statHeadingFontSize: 0.75rem;
+$fontWeights: (
+    "normal": 400,
+    "bold": 700
+);
